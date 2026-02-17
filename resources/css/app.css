@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    /* Brand Colors */
+    --color-primary: #5FBD73;
+    /* Fresh Organic Green */
+    --color-primary-dark: #4b9b5e;
+    --color-secondary: #2d2d2d;
+    /* Earthy Deep Tone */
+    --color-accent: #F8B803;
+    /* Sunlight Yellow */
+    --color-surface: #F4F4F4;
+    /* Neutral Background */
+    --color-glass: rgba(255, 255, 255, 0.7);
+
+    /* Typography */
+    --font-sans: 'Inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-heading: 'Outfit', sans-serif;
+}
+
+/* Base Styles */
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-surface text-secondary antialiased;
+    }
+}
+
+@layer utilities {
+    .animate-floating {
+        animation: floating 4s ease-in-out infinite;
+    }
+
+    @keyframes floating {
+
+        0%,
+        100% {
+            transform: translateY(0px) rotate(0deg);
+        }
+
+        50% {
+            transform: translateY(-30px) rotate(5deg);
+        }
+    }
+
+    .reveal-section,
+    .reveal-left,
+    .reveal-right,
+    .reveal-up {
+        opacity: 0;
+        transition: all 1.2s cubic-bezier(0.2, 1, 0.3, 1);
+    }
+
+    .reveal-left {
+        transform: translateX(-50px);
+    }
+
+    .reveal-right {
+        transform: translateX(50px);
+    }
+
+    .reveal-up {
+        transform: translateY(50px);
+    }
+
+    .is-revealed {
+        opacity: 1 !important;
+        transform: translate(0, 0) !important;
+    }
+}
