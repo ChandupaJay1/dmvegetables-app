@@ -27,7 +27,7 @@
                                 <span class="w-1.5 h-1.5 bg-primary rounded-full animate-ping"></span>
                                 Direct from Sri Lanka
                             </span>
-                            <h1 class="text-7xl lg:text-[120px] font-heading font-black text-white leading-[0.9] mb-8">
+                            <h1 class="text-5xl sm:text-7xl lg:text-[100px] xl:text-[120px] font-heading font-black text-white leading-[0.9] mb-8">
                                 Pure <br> <span class="text-primary italic">Organic</span> <br> Legacy
                             </h1>
                             <p class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent mb-12 drop-shadow-sm">
@@ -61,7 +61,7 @@
                                 <span class="w-1.5 h-1.5 bg-accent rounded-full animate-ping"></span>
                                 Global Logistics
                             </span>
-                            <h2 class="text-7xl lg:text-[120px] font-heading font-black text-white leading-[0.9] mb-8">
+                            <h2 class="text-5xl sm:text-7xl lg:text-[100px] xl:text-[120px] font-heading font-black text-white leading-[0.9] mb-8">
                                 Beyond <br> <span class="text-accent italic">Borders</span>
                             </h2>
                             <p class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent to-white mb-12 drop-shadow-sm italic">
@@ -87,7 +87,7 @@
                                 <span class="w-1.5 h-1.5 bg-primary rounded-full animate-ping"></span>
                                 Future of Food
                             </span>
-                            <h2 class="text-7xl lg:text-[120px] font-heading font-black text-white leading-[0.9] mb-8">
+                            <h2 class="text-5xl sm:text-7xl lg:text-[100px] xl:text-[120px] font-heading font-black text-white leading-[0.9] mb-8">
                                 Green <br> <span class="text-primary italic">Innovation</span>
                             </h2>
                             <p class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-white mb-12 drop-shadow-sm">
@@ -112,13 +112,13 @@
     </section>
 
     <!-- [BENTO GRID] Why Choose Us -->
-    <section class="py-32 bg-white relative">
+    <section class="py-20 lg:py-40 bg-white relative">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 lg:grid-cols-4 grid-rows-2 gap-6 h-full lg:h-[700px]">
                 <!-- Main Promo Card -->
                 <div class="lg:col-span-2 lg:row-span-2 bg-primary rounded-[60px] p-16 text-white relative overflow-hidden group reveal-section">
                     <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
-                    <h3 class="text-5xl lg:text-7xl font-heading font-black mb-8 relative z-10 leading-tight">Harvested <br> with <span class="italic underline decoration-white/30">Love.</span></h3>
+                    <h3 class="text-4xl sm:text-5xl lg:text-7xl font-heading font-black mb-8 relative z-10 leading-tight">Harvested <br> with <span class="italic underline decoration-white/30">Love.</span></h3>
                     <p class="text-xl text-white/80 mb-12 max-w-md leading-relaxed">Direct partnerships with 300+ local families, ensuring ethical practices and the highest organic standards in every crate.</p>
                     <div class="flex items-center gap-4 relative z-10 transition-transform group-hover:translate-x-4">
                         <div class="w-20 h-20 bg-white/20 backdrop-blur-xl rounded-2xl flex items-center justify-center">
@@ -169,13 +169,13 @@
     </section>
 
     <!-- [STORY & TIMELINE] The Organic Journey -->
-    <section class="py-40 bg-surface relative overflow-hidden">
+    <section class="py-20 lg:py-40 bg-surface relative overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="flex flex-col lg:flex-row items-start gap-24">
                 <!-- Visual Story -->
                 <div class="lg:w-1/2 sticky top-40 reveal-left">
                     <span class="text-primary font-black uppercase tracking-[0.3em] text-xs mb-6 block">Our Brand Core</span>
-                    <h2 class="text-6xl lg:text-8xl font-heading font-black text-secondary mb-12 leading-[0.9]">Beyond <br> Just <span class="text-primary italic">Exporting</span></h2>
+                    <h2 class="text-5xl sm:text-6xl lg:text-8xl font-heading font-black text-secondary mb-12 leading-[0.9]">Beyond <br> Just <span class="text-primary italic">Exporting</span></h2>
                     <div class="relative group">
                         <div class="absolute -inset-4 bg-primary/20 rounded-[60px] blur-2xl group-hover:bg-primary/30 transition-all opacity-0 group-hover:opacity-100"></div>
                         <img src="https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&q=80&w=1200" 
@@ -189,7 +189,7 @@
                 </div>
 
                 <!-- Timeline Journey -->
-                <div class="lg:w-1/2 space-y-32 py-20">
+                <div class="lg:w-1/2 space-y-16 lg:space-y-32 py-10 lg:py-20">
                     <div class="relative pl-12 reveal-up">
                         <div class="absolute left-0 top-0 w-0.5 h-full bg-primary/20"></div>
                         <div class="absolute left-[-6px] top-0 w-4 h-4 rounded-full bg-primary shadow-[0_0_20px_rgba(95,189,115,0.6)]"></div>
@@ -215,12 +215,12 @@
     </section>
 
     <!-- [QUOTE] Brand Philosophy Section -->
-    <section class="py-40 bg-surface relative overflow-hidden">
+    <section class="py-20 lg:py-40 bg-surface relative overflow-hidden">
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e835?auto=format&fit=crop&q=80&w=1920')] bg-fixed bg-cover opacity-5"></div>
         <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-5xl mx-auto text-center reveal-up">
                 <i class="fas fa-quote-left text-primary/20 text-8xl mb-12"></i>
-                <h2 class="text-4xl lg:text-7xl font-heading font-black text-secondary leading-tight italic mb-12 uppercase tracking-tighter">
+                <h2 class="text-3xl sm:text-4xl lg:text-7xl font-heading font-black text-secondary leading-tight italic mb-12 uppercase tracking-tighter">
                     "Health is a relationship between you and your body. <br> <span class="text-primary underline decoration-primary/20">Organic</span> is the language they speak."
                 </h2>
                 <div class="flex flex-col items-center gap-4">
@@ -238,7 +238,7 @@
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-16">
                 @foreach([['3', 'Branches'], ['200', 'Eco-Farmers'], ['300', 'Premium Farms'], ['2870', 'Global Clients']] as [$count, $label])
                 <div class="text-center group">
-                    <div class="text-7xl font-heading font-black text-white mb-4 transition-transform group-hover:scale-110">
+                    <div class="text-5xl sm:text-7xl font-heading font-black text-white mb-4 transition-transform group-hover:scale-110">
                         <span class="odometer" data-count="{{ $count }}">0</span><span class="text-3xl text-white/50 inline-block -ml-2">+</span>
                     </div>
                     <span class="text-white/70 font-black uppercase tracking-[0.2em] text-xs underline decoration-white/20 underline-offset-8">{{ $label }}</span>
@@ -249,11 +249,11 @@
     </section>
 
     <!-- [PRICING] Harvesting Plans -->
-    <section class="py-40 bg-white overflow-hidden reveal-section">
+    <section class="py-20 lg:py-40 bg-white overflow-hidden relative">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-32 max-w-3xl mx-auto">
+            <div class="text-center mb-20 lg:mb-32 max-w-3xl mx-auto">
                 <span class="text-primary font-black uppercase tracking-[0.3em] text-xs mb-6 block italic">Tailored for You</span>
-                <h2 class="text-5xl lg:text-[80px] font-heading font-black text-secondary leading-none">Choose Your <br> <span class="text-primary italic">Harvest Cycle</span></h2>
+                <h2 class="text-4xl sm:text-5xl lg:text-[80px] font-heading font-black text-secondary leading-none">Choose Your <br> <span class="text-primary italic">Harvest Cycle</span></h2>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -304,8 +304,8 @@
                 <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/10 to-transparent"></div>
                 
                 <div class="relative z-10 max-w-3xl mx-auto">
-                    <h2 class="text-5xl lg:text-7xl font-heading font-black text-white mb-10 leading-none">Ready to Taste the <span class="italic text-secondary">Isle of Spice?</span></h2>
-                    <p class="text-xl text-white/70 mb-12">Join our global network of premium organic importers. Secure your shipment of Sri Lankan greatness today.</p>
+                    <h2 class="text-4xl sm:text-5xl lg:text-7xl font-heading font-black text-white mb-10 leading-none">Ready to Taste the <span class="italic text-secondary">Isle of Spice?</span></h2>
+                    <p class="text-lg sm:text-xl text-white/70 mb-12">Join our global network of premium organic importers. Secure your shipment of Sri Lankan greatness today.</p>
                     <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
                         <a href="{{ url('/contact') }}" class="w-full sm:w-auto px-12 py-6 bg-white text-secondary rounded-full font-black text-xl hover:bg-secondary hover:text-white transition-all shadow-2xl">
                             Start Partnership

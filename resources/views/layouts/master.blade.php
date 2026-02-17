@@ -65,8 +65,8 @@
                     <div class="flex justify-between items-center h-20">
                         <!-- Logo -->
                         <a href="{{ url('/') }}" class="flex-shrink-0 flex items-center group">
-                            <img src="{{ asset('assets/icon/test4n.svg') }}" class="h-12 w-auto transition-transform group-hover:scale-110" alt="DM Vegetables">
-                            <span class="ml-3 text-2xl font-heading font-bold text-secondary tracking-tight">DM <span class="text-primary">Vegetables</span></span>
+                            <img src="{{ asset('assets/icon/test4n.svg') }}" class="h-10 md:h-12 w-auto transition-transform group-hover:scale-110" alt="DM Vegetables">
+                            <span class="ml-2 md:ml-3 text-lg sm:text-2xl font-heading font-bold text-secondary tracking-tight">DM <span class="text-primary">Vegetables</span></span>
                         </a>
 
                         <!-- Desktop Menu -->

@@ -17,7 +17,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="py-24 bg-white overflow-hidden">
+    <section class="py-16 lg:py-24 bg-white overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
                 <div class="lg:w-1/2 relative space-y-4">
@@ -28,7 +28,7 @@
                 </div>
                 <div class="lg:w-1/2">
                     <span class="text-primary font-bold tracking-widest uppercase text-sm">Get to Know Us</span>
-                    <h2 class="text-4xl lg:text-7xl font-heading font-black mt-4 mb-8 leading-tight">We’re Selling Quality Organic Products</h2>
+                    <h2 class="text-3xl sm:text-4xl lg:text-7xl font-heading font-black mt-4 mb-8 leading-tight">We’re Selling Quality Organic Products</h2>
                     <p class="text-lg text-gray-500 mb-6 leading-relaxed">
                         We are happy to announce that some of the freshest and tastiest organic fruits and vegetables are grown on our fields. By now exporting our produce to customers around the world, we are further demonstrating our dedication to quality and sustainability.
                     </p>
@@ -56,14 +56,14 @@
     </section>
 
     <!-- Video Section -->
-    <section class="py-32 relative text-white">
+    <section class="py-20 lg:py-32 relative text-white">
         <div class="absolute inset-0 bg-cover bg-fixed bg-center" style="background-image: url(https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=1920);"></div>
         <div class="absolute inset-0 bg-primary/60 backdrop-blur-[2px]"></div>
         <div class="container mx-auto px-4 relative z-10 text-center">
             <a href="https://www.youtube.com/watch?v=u5l4cdUjau4" class="w-24 h-24 bg-white text-primary rounded-full flex items-center justify-center mx-auto mb-10 shadow-2xl hover:scale-110 transition-transform group">
                 <i class="fa fa-play text-2xl ml-1"></i>
             </a>
-            <h2 class="text-4xl lg:text-6xl font-heading font-black mb-6">Always Fresh & Organic</h2>
+            <h2 class="text-3xl sm:text-4xl lg:text-6xl font-heading font-black mb-6">Always Fresh & Organic</h2>
             <p class="text-xl text-white/80 max-w-2xl mx-auto">Discover the journey of our produce from the fertile lands of Sri Lanka to your table.</p>
         </div>
     </section>

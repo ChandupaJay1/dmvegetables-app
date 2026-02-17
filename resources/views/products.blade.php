@@ -4,14 +4,14 @@
 
 @section('content')
     <!-- Page Header -->
-    <section class="relative py-28 bg-primary overflow-hidden">
+    <section class="relative py-16 lg:py-28 bg-primary overflow-hidden">
         <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/leaf.png')] animate-pulse"></div>
         <div class="absolute -top-24 -left-24 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
         <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-black/10 rounded-full blur-3xl"></div>
         
         <div class="container mx-auto px-4 relative z-10 text-center">
             <span class="inline-block py-1 px-4 bg-white/20 backdrop-blur-md text-white text-xs font-bold uppercase tracking-widest rounded-full mb-4">Fresh from the Farm</span>
-            <h1 class="text-5xl lg:text-7xl font-heading font-black text-white mb-6 leading-tight">Our <span class="text-secondary italic">Boutique</span></h1>
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-heading font-black text-white mb-6 leading-tight">Our <span class="text-secondary italic">Boutique</span></h1>
             <nav class="flex justify-center space-x-2 text-white/80 text-sm font-medium">
                 <a href="{{ url('/') }}" class="hover:text-white transition-colors">Home</a>
                 <span class="opacity-50">/</span>
@@ -21,7 +21,7 @@
     </section>
 
     <!-- Products Grid -->
-    <section class="py-24 bg-[#F9FBFA] relative">
+    <section class="py-16 lg:py-24 bg-[#F9FBFA] relative">
         <!-- Floating Leaves Decoration -->
         <div class="absolute top-20 left-10 opacity-10 animate-floating hidden lg:block">
             <img src="{{ asset('assets/icon/test2n.svg') }}" class="w-20 rotate-45" alt="">
@@ -96,7 +96,7 @@
                         @foreach ($products as $product)
                             <div class="bg-white rounded-[48px] overflow-hidden shadow-2xl shadow-gray-200/40 hover:-translate-y-4 transition-all duration-500 border border-white group relative">
                                 <!-- Image Wrapper -->
-                                <div class="aspect-square relative overflow-hidden bg-[#F4F7F6] flex items-center justify-center p-12">
+                                <div class="aspect-square relative overflow-hidden bg-[#F4F7F6] flex items-center justify-center p-8 lg:p-12">
                                     <img src="{{ Str::startsWith($product['img'], 'http') ? $product['img'] : asset($product['img']) }}" 
                                          class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700" 
                                          alt="{{ $product['name'] }}"
