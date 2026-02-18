@@ -145,22 +145,22 @@
 
                 <!-- Return Policy -->
                 <div class="bg-surface rounded-[60px] p-12 flex flex-col justify-between group hover:border-primary border border-transparent transition-all reveal-up">
-                    <div class="w-16 h-16 bg-white shadow-xl rounded-2xl flex items-center justify-center text-primary text-3xl group-hover:rotate-12 transition-transform">
+                    <div class="w-16 h-16 bg-white shadow-xl rounded-2xl flex items-center justify-center text-primary text-3xl group-hover:rotate-12 transition-transform mb-8">
                         <i class="fas fa-undo"></i>
                     </div>
                     <div>
-                        <h4 class="text-2xl font-black text-secondary leading-none mb-2">Zero Risk</h4>
+                        <h4 class="text-2xl font-black text-secondary leading-none mb-4">Zero Risk</h4>
                         <p class="text-gray-500 text-sm">Full satisfaction guarantee.</p>
                     </div>
                 </div>
 
                 <!-- Support -->
                 <div class="bg-accent rounded-[60px] p-12 flex flex-col justify-between group bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] reveal-right">
-                    <div class="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center text-white text-3xl">
+                    <div class="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center text-white text-3xl mb-8">
                         <i class="fas fa-headset"></i>
                     </div>
                     <div>
-                        <h4 class="text-2xl font-black text-secondary leading-none mb-2">Expert Care</h4>
+                        <h4 class="text-2xl font-black text-secondary leading-none mb-4">Expert Care</h4>
                         <p class="text-secondary/60 text-sm">Personalized export consulting.</p>
                     </div>
                 </div>
@@ -190,10 +190,10 @@
 
                 <!-- Timeline Journey -->
                 <div class="lg:w-1/2 space-y-16 lg:space-y-32 py-10 lg:py-20">
-                    <div class="relative pl-12 reveal-up">
+                    <div class="relative pl-12 reveal-up mt-12 lg:mt-0">
                         <div class="absolute left-0 top-0 w-0.5 h-full bg-primary/20"></div>
                         <div class="absolute left-[-6px] top-0 w-4 h-4 rounded-full bg-primary shadow-[0_0_20px_rgba(95,189,115,0.6)]"></div>
-                        <h4 class="text-3xl font-black text-secondary mb-6">Seed of Trust</h4>
+                        <h4 class="text-3xl font-black text-secondary mb-6 mt-1 sm:mt-0">Seed of Trust</h4>
                         <p class="text-xl text-gray-500 leading-relaxed">It starts in the moist soil of Nuwara Eliya. We provide farmers with organic non-GMO seeds, ensuring the lineage of health starts from the very first sprout.</p>
                     </div>
 
